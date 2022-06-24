@@ -1,0 +1,335 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+}
+/* body{
+    background-color: rgb(32, 32, 32);
+    align-items: center;
+    width: 1700px;
+       
+} */
+header{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;    
+    background-size: 1700px 700px;
+    text-align: center;
+    width: 1700px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-content: center;  
+}
+.inicio-icon{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;    
+    align-content: center;   
+}
+.inicio-icon-cont{
+    font-weight: bold;
+    font-size: 20px;
+    font-family: cursive;
+    color: rgb(241, 241, 247);
+    text-decoration: none;
+    /* margin: 0 150px; */
+}
+.inicio-icon ul{
+    width: 300px;
+    list-style-type: none;
+    /* display: inline-block;     */
+    color: aliceblue;
+    font-size: 30px;   
+    /* margin: 0 100px;       */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.inicio-icon ul li{
+    display: flex;
+    flex-flow: row nowrap; 
+     /* padding: 30px; */
+}
+.inicio_imagen img{
+    margin: 0;
+    width: 1700px;
+    height: 400px;
+    
+}
+.iniciomenu{
+    list-style: none;
+    text-align: center;
+    padding: 20px 0;
+    background-color: rgba(0, 0, 0, 0.808);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-content: center;
+}
+.iniciomenu li{
+    /* list-style-type: none; */
+    /* display: inline-block; */
+    font-family: cursive;
+    font-weight: bold;
+    font-size: 20px;       
+}
+.iniciomenu__nav{
+    color: aliceblue;
+    text-decoration: none;
+    /* margin: 0 60px;     */
+}
+.main-index{
+    background-image: url(../multimedia/fondo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1700px 1100px;
+}
+.main-index-p1{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    border: groove rgba(240, 234, 234, 0.671);
+    padding: 30px;
+    background-color: rgba(18, 18, 19, 0.466);
+    width: 1000px;
+    height: 500px;
+}
+.main-index-video{
+    width: 1000px;
+    height: 500px;
+}
+.main-index-p2{
+font-size: 20px;
+color: black;
+padding: 30px;
+background-color: rgba(240, 248, 255, 0.521);
+}
+.buscar{
+    display: inline-block;
+    padding:30px;
+}
+.main-index-b{
+    width: 170px;
+    height: 20px;
+}
+.index-section{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1700px 600px ;
+}
+.index-section__map{
+    width: 300px;
+    height: 300px;
+    display: inline-block;
+    position: relative; 
+    padding: 30px;  
+}
+.index-section ul{
+    display: inline-block;
+    color: aliceblue;
+    border: groove aliceblue;
+    padding: 100px;
+    text-align: center;
+    list-style-type: none;
+    position: relative;
+    top: -200px;
+    left: 800px;
+    font-size: 20px;    
+}
+footer{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 1700px 300px;    
+    text-align: center;
+}
+footer p{
+    font-size: 40px;
+    color: rgba(240, 248, 255, 0.589);
+    padding: 50px;
+}
+
+/*--nosotros--*/
+
+.main-nosotros{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1700px 1000px;
+    text-align: center;
+    
+}
+.main-nosotros p{
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    border: groove rgba(240, 234, 234, 0.671);
+    padding: 150px;
+    background-color: rgba(18, 18, 19, 0.466);   
+
+}
+.main-nosotros div img{
+    width: 700px;
+    height: 500px;
+}
+/*--galeria--*/
+.main-galeria{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1700px 2000px;
+    text-align: center;
+    display: block;
+  
+   
+}
+.main-galeria div{
+    padding: 50px;
+}
+
+.galeria-div1 img{
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.galeria-div1 p{
+    display: inline-block;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    border: groove rgba(240, 234, 234, 0.671);
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+    background-color: rgba(18, 18, 19, 0.466);
+    position: relative;
+    left: -100px;
+
+}
+.galeria-div2 img{
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: -100px;
+}
+.galeria-div2 p{
+    display: inline-block;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    border: groove rgba(240, 234, 234, 0.671);
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+    background-color: rgba(18, 18, 19, 0.466);
+    position: relative;
+    left: 100px;
+    
+
+}
+.galeria-div3 img{
+    display:inline-block;
+    width: 300px;
+    height: 300px;
+    position: relative;
+    top: 100px;
+    left: 100px;
+}
+.galeria-div3 p{
+    display: inline-block;
+    font-size: 30px;
+    color: aliceblue;
+    text-align: center;
+    border: groove rgba(240, 234, 234, 0.671);
+    width: 300px;
+    height: 300px;
+    padding: 60px;
+    background-color: rgba(18, 18, 19, 0.466);
+    position: relative;
+    left: -100px;
+
+}
+/*--planes--*/
+.main-planes{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1700px 800px;
+    
+}
+table{
+    width: 100%;
+    text-align: left;
+    font-size: 30px;
+    color: aliceblue;
+    border: none;
+    padding: 50px;
+            
+}
+table tr td{
+    padding: 60px;
+    font-family: sans-serif;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+/*--contacto--*/
+.main-contacto{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 1700px 900px;    
+
+}
+form{
+    width: 100%;
+    text-align: center;
+    color: aliceblue;
+    font-size: 20px;
+    padding: 80px;
+
+}
+form label{
+    display: block;
+    padding: 30px 0 0 0;
+}
+form input{
+    width: 500px;
+    height: 30px;
+    margin: 20px;
+}
+.input-enviar{
+    width: 70px;
+    height: 30px;
+}
+form textarea{
+    width: 500px;
+    height: 300px;
+    margin: 20px;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
