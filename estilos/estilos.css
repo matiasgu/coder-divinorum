@@ -6,7 +6,8 @@
 body{
     background-color: rgb(32, 32, 32);
     align-items: center;
-    width: 1600px;
+    /* width: 1600px; */
+    
     
     
 
@@ -18,14 +19,18 @@ header{
     background-position: center;    
     background-size: 1600px 700px;
     text-align: center;
+    
     width: 1600px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: center;
-    align-content: center;  
+    
+    align-content: center; 
+    
 }
 .inicio-icon{
+    
     padding: 10px 0;
     display: flex;
     flex-direction: row;
@@ -204,8 +209,15 @@ footer p{
     background-image: url(../multimedia/fondo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1700px 1000px;
-    text-align: center;
+    background-size: 1600px 1000px;
+    /* text-align: center; */
+    width: 1600px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-items: center;
+
     
 }
 .main-nosotros p{
@@ -226,26 +238,37 @@ footer p{
     background-image: url(../multimedia/fondo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1700px 2000px;
-    text-align: center;
-    display: block;
-  
+    background-size: 1600px 2000px;
+    /* text-align: center;
+    display: block; */
+    width: 1600px;
+    display: grid;
+    grid-template-columns: 800px 800px;
+    grid-template-rows: repeat(3,500px);
+    grid-template-areas: 
+    "receta1 img1"
+    "img2 receta2"
+    "receta3 img3";
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+      
    
 }
-.main-galeria div{
-    padding: 50px;
-}
 
-.galeria-div1 img{
-    display:inline-block;
+
+
+.main-gal-i1{
+    /* display:inline-block; */
     width: 300px;
     height: 300px;
-    position: relative;
+    /* position: relative;
     top: 100px;
-    left: 100px;
+    left: 100px; */
+    grid-area: img1;
 }
-.galeria-div1 p{
-    display: inline-block;
+.main-gal-p1{
+    /* display: inline-block; */
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -254,20 +277,23 @@ footer p{
     height: 300px;
     padding: 60px;
     background-color: rgba(18, 18, 19, 0.466);
-    position: relative;
-    left: -100px;
+    /* position: relative;
+    left: -100px; */
+    grid-area: receta1;
+   
 
 }
-.galeria-div2 img{
-    display:inline-block;
+.main-gal-i2{
+    /* display:inline-block; */
     width: 300px;
     height: 300px;
-    position: relative;
+    /* position: relative;
     top: 100px;
-    left: -100px;
+    left: -100px; */
+    grid-area: img2;
 }
-.galeria-div2 p{
-    display: inline-block;
+.main-gal-p2{
+    /* display: inline-block; */
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -276,21 +302,23 @@ footer p{
     height: 300px;
     padding: 60px;
     background-color: rgba(18, 18, 19, 0.466);
-    position: relative;
-    left: 100px;
+    /* position: relative;
+    left: 100px; */
+    grid-area: receta2;
     
 
 }
-.galeria-div3 img{
-    display:inline-block;
+.main-gal-i3{
+    /* display:inline-block; */
     width: 300px;
     height: 300px;
-    position: relative;
+    /* position: relative;
     top: 100px;
-    left: 100px;
+    left: 100px; */
+    grid-area: img3;
 }
-.galeria-div3 p{
-    display: inline-block;
+.main-gal-p3{
+    /* display: inline-block; */
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -299,8 +327,9 @@ footer p{
     height: 300px;
     padding: 60px;
     background-color: rgba(18, 18, 19, 0.466);
-    position: relative;
-    left: -100px;
+    /* position: relative;
+    left: -100px; */
+    grid-area: receta3;
 
 }
 /*--planes--*/
@@ -308,10 +337,76 @@ footer p{
     background-image: url(../multimedia/fondo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1700px 800px;
+    background-size: 1600px 800px;
+    width: 1600px;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    grid-template-rows: repeat(3,2fr);
+    grid-template-areas: 
+    "plan1 precio1"
+    "plan2 precio2"
+    "plan3 precio3";
+    justify-items: center;
+    align-items: center;   
     
 }
-table{
+.plan1{
+    grid-area: plan1;
+    font-size: 40px;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+
+}
+.precio1{
+    grid-area: precio1;
+    font-size: 40px;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.plan2{
+    grid-area: plan2;
+    font-size: 40px;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.precio2{
+    grid-area: precio2;
+    font-size: 40px;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 30px;
+    margin: 50px 0;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.plan3{
+    grid-area: plan3;
+    font-size: 40px;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+.precio3{
+    grid-area: precio3;
+    font-size: 40px;
+    font-family: cursive;
+    color: aliceblue;
+    padding: 30px;
+    margin: 10px;
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+/* table{
     width: 100%;
     text-align: left;
     font-size: 30px;
@@ -325,26 +420,47 @@ table tr td{
     font-family: sans-serif;
     background-color: rgba(0, 0, 0, 0.5);
 
-}
+} */
 /*--contacto--*/
 .main-contacto{
     background-image: url(../multimedia/fondo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 1700px 900px;    
+    background-size: 1600px 900px;
+    width: 1600px;    
 
 }
 form{
-    width: 100%;
+    /* width: 1600px; */
     text-align: center;
     color: aliceblue;
     font-size: 20px;
-    padding: 80px;
-
+    /* padding: 80px; */
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 1fr 1fr 5fr 1fr;
+    grid-template-areas: 
+    "nombre ingrese-nom"
+    "correo ingrese-corr"
+    "mensaje ingrese-msj"
+    "enviar enviar";
 }
+.nombre{
+    grid-area: nombre;
+}
+.input-nomb{
+    grid-area: ingrese-nom;
+}
+.correo{
+    grid-area: correo;
+}
+.input-corr{
+    grid-area: ingrese-corr;
+}
+
 form label{
-    display: block;
-    padding: 30px 0 0 0;
+    /* display: block; */
+    /* padding: 30px 0 0 0; */
 }
 form input{
     width: 500px;
