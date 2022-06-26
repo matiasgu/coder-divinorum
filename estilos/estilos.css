@@ -6,7 +6,7 @@
 body{
     background-color: rgb(32, 32, 32);
     align-items: center;
-    /* width: 1600px; */
+    
     
     
     
@@ -44,15 +44,15 @@ header{
     font-family: cursive;
     color: rgb(241, 241, 247);
     text-decoration: none;
-    /* margin: 0 150px; */
+    
 }
 .inicio-icon ul{
     width: 300px;
     list-style-type: none;
-    /* display: inline-block;     */
+    
     color: aliceblue;
     font-size: 30px;   
-    /* margin: 0 100px;       */
+    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
@@ -62,7 +62,7 @@ header{
 .inicio-icon ul li{
     display: flex;
     flex-flow: row nowrap; 
-     /* padding: 30px; */
+    
 }
 .inicio_imagen img{
     margin: 0;
@@ -81,8 +81,7 @@ header{
     align-content: center;
 }
 .iniciomenu li{
-    /* list-style-type: none; */
-    /* display: inline-block; */
+    
     font-family: cursive;
     font-weight: bold;
     font-size: 20px;       
@@ -90,7 +89,7 @@ header{
 .iniciomenu__nav{
     color: aliceblue;
     text-decoration: none;
-    /* margin: 0 60px;     */
+    
 }
 .main-index{
     background-image: url(../multimedia/fondo.png);
@@ -116,7 +115,7 @@ header{
     color: aliceblue;
     text-align: center;
     border: groove rgba(240, 234, 234, 0.671);
-    /* padding: 30px; */
+    
     background-color: rgba(18, 18, 19, 0.466);
     width: 1000px;
     height: 500px;
@@ -140,11 +139,7 @@ background-color: rgba(240, 248, 255, 0.521);
 
 grid-area: ind-parr2;
 }
-/* .buscar{
-    display: inline-block;
-    padding:30px;
-    grid-area: buscar;
-} */
+
 .main-index-b{
     width: 400px;
     height: 40px;
@@ -167,20 +162,16 @@ grid-area: ind-parr2;
 .index-section iframe{
     width: 500px;
     height: 500px;
-    /* display: inline-block;
-    position: relative; 
-    padding: 30px;   */
+    
 }
 .index-section ul{
-    /* display: inline-block; */
+    
     color: aliceblue;
     border: groove aliceblue;
-    /* padding: 100px; */
+    
     text-align: center;
     list-style-type: none;
-    /* position: relative;
-    top: -200px;
-    left: 800px; */
+   
     font-size: 40px; 
     width: 500px;
     height: 500px;
@@ -210,7 +201,7 @@ footer p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1600px 1000px;
-    /* text-align: center; */
+    
     width: 1600px;
     display: flex;
     flex-direction: column;
@@ -239,8 +230,7 @@ footer p{
     background-position: center;
     background-repeat: no-repeat;
     background-size: 1600px 2000px;
-    /* text-align: center;
-    display: block; */
+   
     width: 1600px;
     display: grid;
     grid-template-columns: 800px 800px;
@@ -259,16 +249,14 @@ footer p{
 
 
 .main-gal-i1{
-    /* display:inline-block; */
+    
     width: 300px;
     height: 300px;
-    /* position: relative;
-    top: 100px;
-    left: 100px; */
+    
     grid-area: img1;
 }
 .main-gal-p1{
-    /* display: inline-block; */
+    
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -277,23 +265,20 @@ footer p{
     height: 300px;
     padding: 60px;
     background-color: rgba(18, 18, 19, 0.466);
-    /* position: relative;
-    left: -100px; */
+    
     grid-area: receta1;
    
 
 }
 .main-gal-i2{
-    /* display:inline-block; */
+    
     width: 300px;
     height: 300px;
-    /* position: relative;
-    top: 100px;
-    left: -100px; */
+    
     grid-area: img2;
 }
 .main-gal-p2{
-    /* display: inline-block; */
+    
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -302,23 +287,20 @@ footer p{
     height: 300px;
     padding: 60px;
     background-color: rgba(18, 18, 19, 0.466);
-    /* position: relative;
-    left: 100px; */
+   
     grid-area: receta2;
     
 
 }
 .main-gal-i3{
-    /* display:inline-block; */
+    
     width: 300px;
     height: 300px;
-    /* position: relative;
-    top: 100px;
-    left: 100px; */
+    
     grid-area: img3;
 }
 .main-gal-p3{
-    /* display: inline-block; */
+    
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -327,8 +309,7 @@ footer p{
     height: 300px;
     padding: 60px;
     background-color: rgba(18, 18, 19, 0.466);
-    /* position: relative;
-    left: -100px; */
+   
     grid-area: receta3;
 
 }
@@ -406,21 +387,7 @@ footer p{
     background-color: rgba(0, 0, 0, 0.541);
 }
 
-/* table{
-    width: 100%;
-    text-align: left;
-    font-size: 30px;
-    color: aliceblue;
-    border: none;
-    padding: 50px;
-            
-}
-table tr td{
-    padding: 60px;
-    font-family: sans-serif;
-    background-color: rgba(0, 0, 0, 0.5);
 
-} */
 /*--contacto--*/
 .main-contacto{
     background-image: url(../multimedia/fondo2.jpg);
@@ -462,7 +429,8 @@ form textarea{
 @media screen and (max-width: 500px){
     header{       
          
-        width: auto;     
+        width: 100%;
+        height: auto;     
         
     }
     .inicio-icon{        
@@ -488,8 +456,8 @@ form textarea{
         
     }
     .inicio_imagen img{
-        width: auto;
-        height: 130px;
+        width: 100%;
+        height: auto;
         
     }
     .iniciomenu{
@@ -527,8 +495,8 @@ form textarea{
         height: 300px;       
     }
     .main-index-video{
-        width: auto;
-        height: 300px;
+        width: 100%;
+        height: auto;
         
     }
     .main-index-p2{
@@ -571,259 +539,153 @@ form textarea{
         padding: 20px;
     }
     
-    /*--nosotros--*/
+    /*--nosotros RD--*/
     
     .main-nosotros{
-        background-image: url(../multimedia/fondo2.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 1600px 1000px;
-        /* text-align: center; */
-        width: 1600px;
-        display: flex;
-        flex-direction: column;
-        flex-wrap: nowrap;
-        justify-items: center;
-        align-items: center;
+        width: 100%;
+        height: auto;
     
         
     }
     .main-nosotros p{
-        font-size: 30px;
-        color: aliceblue;
-        text-align: center;
-        border: groove rgba(240, 234, 234, 0.671);
-        padding: 150px;
-        background-color: rgba(18, 18, 19, 0.466);   
+        font-size: 20px;
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+           
     
     }
     .main-nosotros div img{
-        width: 700px;
-        height: 500px;
+        width: 100%;
+        height: auto;
     }
-    /*--galeria--*/
+    /*--galeria RD--*/
     .main-galeria{
-        background-image: url(../multimedia/fondo2.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 1600px 2000px;
-        /* text-align: center;
-        display: block; */
-        width: 1600px;
+        
+        width: 100%;
+        height: auto;
         display: grid;
-        grid-template-columns: 800px 800px;
-        grid-template-rows: repeat(3,500px);
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6,300px);
         grid-template-areas: 
-        "receta1 img1"
-        "img2 receta2"
-        "receta3 img3";
-        justify-items: center;
-        align-items: center;
-        justify-content: center;
+        "receta1"
+        "img1"
+        "receta2"
+        "img2"
+        "receta3"
+        "img3";       
           
        
-    }
+    }  
     
-    
-    
+
     .main-gal-i1{
-        /* display:inline-block; */
-        width: 300px;
-        height: 300px;
-        /* position: relative;
-        top: 100px;
-        left: 100px; */
-        grid-area: img1;
+        width: 100%;
+        height: auto;
     }
     .main-gal-p1{
-        /* display: inline-block; */
-        font-size: 30px;
-        color: aliceblue;
-        text-align: center;
-        border: groove rgba(240, 234, 234, 0.671);
-        width: 300px;
-        height: 300px;
-        padding: 60px;
-        background-color: rgba(18, 18, 19, 0.466);
-        /* position: relative;
-        left: -100px; */
-        grid-area: receta1;
-       
+        width: 100%;
+        height: auto;       
     
     }
     .main-gal-i2{
-        /* display:inline-block; */
-        width: 300px;
-        height: 300px;
-        /* position: relative;
-        top: 100px;
-        left: -100px; */
-        grid-area: img2;
+        width: 100%;
+        height: auto;
     }
     .main-gal-p2{
-        /* display: inline-block; */
-        font-size: 30px;
-        color: aliceblue;
-        text-align: center;
-        border: groove rgba(240, 234, 234, 0.671);
-        width: 300px;
-        height: 300px;
-        padding: 60px;
-        background-color: rgba(18, 18, 19, 0.466);
-        /* position: relative;
-        left: 100px; */
-        grid-area: receta2;
-        
+        width: 100%;
+        height: auto;        
     
     }
     .main-gal-i3{
-        /* display:inline-block; */
-        width: 300px;
-        height: 300px;
-        /* position: relative;
-        top: 100px;
-        left: 100px; */
-        grid-area: img3;
+        width: 100%;
+        height: auto;
     }
     .main-gal-p3{
-        /* display: inline-block; */
-        font-size: 30px;
-        color: aliceblue;
-        text-align: center;
-        border: groove rgba(240, 234, 234, 0.671);
-        width: 300px;
-        height: 300px;
-        padding: 60px;
-        background-color: rgba(18, 18, 19, 0.466);
-        /* position: relative;
-        left: -100px; */
-        grid-area: receta3;
+        width: 100%;
+        height: auto;
     
     }
-    /*--planes--*/
+    /*--planes RD--*/
     .main-planes{
-        background-image: url(../multimedia/fondo2.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 1600px 800px;
-        width: 1600px;
-        display: grid;
-        grid-template-columns: 70% 30%;
-        grid-template-rows: repeat(3,2fr);
-        grid-template-areas: 
-        "plan1 precio1"
-        "plan2 precio2"
-        "plan3 precio3";
-        justify-items: center;
-        align-items: center;   
+       
+        width: 100%;
+        height: auto;
+       
+    
+         
         
     }
     .plan1{
-        grid-area: plan1;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
+        background: none;        
+        font-size: 15px;      
+        
+        
+        
     
     }
     .precio1{
-        grid-area: precio1;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
+        
+        background: none;        
+        font-size: 15px;  
     }
     .plan2{
-        grid-area: plan2;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
+        
+        background: none;        
+        font-size: 15px;  
+        
     }
     .precio2{
-        grid-area: precio2;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 50px 0;
-        background-color: rgba(0, 0, 0, 0.541);
+        
+        background: none;        
+        font-size: 15px;  
     }
     .plan3{
-        grid-area: plan3;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
+        
+        background: none;        
+        font-size: 15px;  
+        
     }
     .precio3{
-        grid-area: precio3;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
+        
+        background: none;        
+        font-size: 15px;  
+        
     }
     
-    /* table{
-        width: 100%;
-        text-align: left;
-        font-size: 30px;
-        color: aliceblue;
-        border: none;
-        padding: 50px;
-                
-    }
-    table tr td{
-        padding: 60px;
-        font-family: sans-serif;
-        background-color: rgba(0, 0, 0, 0.5);
-    
-    } */
-    /*--contacto--*/
+    /*--contacto RD--*/
     .main-contacto{
-        background-image: url(../multimedia/fondo2.jpg);
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: 1600px 900px;
-        width: 1600px;    
+        
+        width: 100%;
+        height: auto;    
     
     }
     form{
-        width: 1600px;
-        text-align: center;
-        color: aliceblue;
-        font-size: 20px;
-        padding: 80px;
+        width: 100%;
+        height: auto;
+        
+        padding: 40px 10px;
        
     }
     
     form label{
         display: block;
-        padding: 30px 0 0 0;
+        padding: 10px 0;
     }
     form input{
-        width: 500px;
+        width: 100%;
         height: 30px;
-        margin: 20px;
+        margin: 10px 0;
+        
     }
     .input-enviar{
         width: 70px;
         height: 30px;
     }
     form textarea{
-        width: 500px;
+        width: 100%;
         height: 300px;
-        margin: 20px;
+        margin: 10px 0;        
     }
     
 
