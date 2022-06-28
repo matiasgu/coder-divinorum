@@ -117,7 +117,7 @@ header{
     border: groove rgba(240, 234, 234, 0.671);
     
     background-color: rgba(18, 18, 19, 0.466);
-    width: 1000px;
+    width: 100%;
     height: 500px;
     grid-area: ind-parr1;
     display: flex;
@@ -126,7 +126,7 @@ header{
     
 }
 .main-index-video{
-    width: 1000px;
+    width: 100%;
     height: 500px;
     grid-area: video;
 }
