@@ -156,13 +156,13 @@ grid-area: ind-parr2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 1600px 600px ;
-    width: 1600px;
-    height: 600px;
-    display: flex;
+    /* width: 1600px;
+    height: 600px; */
+    /* display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-around;
-    align-items: center;
+    flex-wrap: nowrap; */
+    /* justify-content: space-around;
+    align-items: center; */
     
 }
 .index-section iframe{
@@ -519,7 +519,7 @@ form textarea{
         background-size: cover;
         width: auto;
         height: 800px;
-        flex-direction: column;     
+        /* flex-direction: column;      */
                
     }
     .index-section iframe{
