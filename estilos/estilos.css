@@ -208,7 +208,7 @@ footer p{
     background-image: url(../multimedia/fondo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100%;
+    background-size: 100% 100%;
     
     /* width: 100%;
     height: auto;
@@ -217,11 +217,10 @@ footer p{
     flex-wrap: nowrap;
     justify-items: center;
     align-items: center; */
-    text-align: center;
-
+    
     
 }
-.main-nosotros p{
+.main-nosotros div p{
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -231,8 +230,9 @@ footer p{
 
 }
 .main-nosotros div img{
-    /* width: 700px; */
-    height: 500px;
+    /* width: 500px;
+    height: auto; */
+    
     
 }
 /*--galeria--*/
