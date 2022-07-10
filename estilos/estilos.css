@@ -5,13 +5,7 @@
 }
 body{
     background-color: rgb(32, 32, 32);
-    align-items: center;
-    
-    
-    
-    
-
-       
+    /* align-items: center; */
 }
 header{
     background-image: url(../multimedia/fondo2.jpg);
@@ -21,22 +15,23 @@ header{
     /* text-align: center;     */
     width: 100% 100%;
     height: auto;
-    display: flex;
+    /* display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    justify-content: center;
-    
-    align-content: center; 
+    justify-content: center;    
+    align-content: center;  */
     
 }
 .inicio-icon{
     
-    padding: 10px 0;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-around;    
-    align-content: center;   
+    justify-content: space-around;  
+    align-items: baseline;
+    
+       
 }
 .inicio-icon-cont{
     font-weight: bold;
@@ -47,26 +42,23 @@ header{
     
 }
 .inicio-icon ul{
-    width: 300px;
-    list-style-type: none;
-    
-    color: aliceblue;
-    font-size: 30px;   
-    
+    width: 20%;
+    list-style-type: none;    
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-evenly;
-    align-content: center;
+    justify-content: space-between;
+    
+    
 }
 .inicio-icon ul li{
-    display: flex;
-    flex-flow: row nowrap; 
     
+    font-size: 30px;
+    color: aliceblue;  
 }
 .inicio_imagen{
     margin: 0;
-    width: 80%;
+    width: 70%;
     height: auto;
     
 }
@@ -96,14 +88,14 @@ header{
     text-decoration: none;
     transition: 0.5s;
     font-size: 20px;
-    font-family: cursive;
+    font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     padding: 10px;
     
     
 }
 .iniciomenu__nav:hover{
-    color: rgba(201, 6, 6, 0.582);
+    /* color: rgba(201, 6, 6, 0.582); */
     font-size: 30px;
 } 
 .main-index{
@@ -123,6 +115,7 @@ header{
     ;
     justify-items: center;
     align-items: center;
+    padding: 20px;
     
     
 }
@@ -166,34 +159,36 @@ grid-area: ind-parr2;
     background-repeat: no-repeat;
     background-position: center;
     background-size: 100% 100% ;
-    /* width: 1600px;
-    height: 600px; */
-    /* display: flex;
+    /* width: 100%; */
+    height: auto;
+    display: flex;
     flex-direction: row;
-    flex-wrap: nowrap; */
-    /* justify-content: space-around;
-    align-items: center; */
+    flex-wrap: nowrap;
+    justify-content: space-evenly;
+    /* align-items: center; */
+    padding: 20px;
     
 }
 .index-section iframe{
-    /* width: 500px; */
+    width: 100%;
     height: 500px;
+    
     
 }
 .index-section ul{
     
     color: aliceblue;
-    border: groove aliceblue;
-    
+    border: groove aliceblue;    
     text-align: center;
-    list-style-type: none;
-   
+    list-style-type: none;   
     font-size: 40px; 
-    /* width: 500px; */
+    width: 100%;
     height: 500px;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    
+    
     
 }
 footer{
@@ -488,12 +483,15 @@ form textarea{
         flex-direction: column;
         justify-content: center;
         
-    }
-    .iniciomenu li{       
+    }   
+    .iniciomenu__nav{
+        font-size: 15px;      
         
-        padding: 10px;      
     }
-   
+    .iniciomenu__nav:hover{
+        
+        font-size: 20px;
+    }   
     .main-index{
         background-image: url(../multimedia/fondo2.jpg);
         
@@ -536,7 +534,7 @@ form textarea{
         background-size: cover;
         width: 100%;
         height: auto;
-        /* flex-direction: column;      */
+        flex-direction: column;
                
     }
     .index-section iframe{
