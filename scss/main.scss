@@ -54,12 +54,12 @@ header{
             width: 80%;
         }
     }
-    .iniciomenu__nav{    
-        transition: 0.5s;
+    .iniciomenu__nav{   
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-weight: bold;
-        padding: 20px;        
+        padding: 20px;
+        transition: 0.5s;       
         &:hover{
             font-size: 30px;
         }
@@ -165,7 +165,14 @@ footer{
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: space-between;
-        
+        .fa-brands{
+            font-size: 30px;
+            color: aliceblue;
+            transition: 0.5s;
+            &:hover{
+                font-size: 40px;
+            }
+        }
     }
 }
 @import "nosotros";

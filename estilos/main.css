@@ -46,11 +46,11 @@ header {
     header .inicio_imagen:hover {
       width: 80%; }
   header .iniciomenu__nav {
-    transition: 0.5s;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    padding: 20px; }
+    padding: 20px;
+    transition: 0.5s; }
     header .iniciomenu__nav:hover {
       font-size: 30px; }
 
@@ -143,6 +143,12 @@ footer {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between; }
+    footer ul .fa-brands {
+      font-size: 30px;
+      color: aliceblue;
+      transition: 0.5s; }
+      footer ul .fa-brands:hover {
+        font-size: 40px; }
 
 .main-nosotros {
   background-image: url(../multimedia/fondo2.jpg);
