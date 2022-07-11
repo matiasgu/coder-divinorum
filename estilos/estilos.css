@@ -149,10 +149,11 @@ background-color: rgba(240, 248, 255, 0.521);
 grid-area: ind-parr2;
 }
 
-.main-index-b{
-    width: auto;
-    height: 40px;
+.main-index-i{
+    width: 100%;
+    height: auto;
     grid-area: buscar;
+    padding: 0 20px;
 }
 .index-section{
     background-image: url(../multimedia/fondo2.jpg);
@@ -212,29 +213,30 @@ footer p{
     background-image: url(../multimedia/fondo2.jpg);
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
-    
-    /* width: 100%;
+    background-size: 100% 100%;    
+    width: 100%;
     height: auto;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-items: center;
-    align-items: center; */
+    align-items: center;
     
     
 }
-.main-nosotros div p{
+.main-nosotros p{
     font-size: 30px;
     color: aliceblue;
     text-align: center;
     border: groove rgba(240, 234, 234, 0.671);
     padding: 150px;
-    background-color: rgba(18, 18, 19, 0.466);   
+    background-color: rgba(18, 18, 19, 0.466); 
+    width: 70%;
+    height: auto;  
 
 }
-.main-nosotros div img{
-    width: 500px;
+.main-nosotros img{
+    width: 60%;
     height: auto;
     
     
