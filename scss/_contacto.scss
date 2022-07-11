@@ -1,0 +1,33 @@
+.main-contacto{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100%;
+    height: auto;
+    form{
+        width: 100%;
+        text-align: center;
+        color: aliceblue;
+        font-size: 20px;
+        padding: 80px;
+        label{
+            display: block;
+            padding: 30px 0 0 0;
+        }
+        input{
+            width: 500px;
+            height: 30px;
+            margin: 20px;
+        }
+        textarea{
+            width: 500px;
+            height: 300px;
+            margin: 20px;
+        }
+        .input-enviar{
+            width: 70px;
+            height: 30px;
+        }
+    }    
+}

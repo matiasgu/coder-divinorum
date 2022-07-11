@@ -1,0 +1,27 @@
+.main-nosotros{
+    background-image: url(../multimedia/fondo2.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;    
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-items: center;
+    align-items: center;
+    p{
+        font-size: 30px;
+        color: aliceblue;
+        text-align: center;
+        border: groove rgba(240, 234, 234, 0.671);
+        padding: 150px;
+        background-color: rgba(18, 18, 19, 0.466); 
+        width: 70%;
+        height: auto; 
+    }
+    img{
+        width: 60%;
+        height: auto;   
+    }
+}

@@ -1,0 +1,161 @@
+@media screen and (max-width: 500px){
+    header{
+        div{
+            flex-direction: column;       
+            align-items: center;
+            a{
+                padding: 5px;
+            }
+            ul{
+                width: 200px;
+                padding: 5px;
+                li{
+                    justify-items: center;
+                }
+            }
+        }
+        .inicio_imagen{
+            width: 100%;
+            height: auto;
+            transition: none;
+            &:hover{
+                width: 100%;
+            }
+        }
+        .iniciomenu__nav{
+            font-size: 15px;
+            &:hover{
+                font-size: 20px;   
+            }
+        }
+    }
+    .main-index{
+        background-image: url(../multimedia/fondo2.jpg);        
+        width: auto;
+        height: auto;        
+        grid-template-columns: 100%;
+        grid-template-rows: 2fr 2fr 1fr 0.5fr;
+        grid-template-areas: 
+        "ind-parr1"
+        "video"
+        "ind-parr2"
+        "buscar";  
+        .main-index-p1{
+            font-size: 20px;       
+            width: auto;
+            height: 300px;       
+        }
+        .main-index-video{
+            width: 100%;
+            height: auto;
+        }
+        .main-index-p2{
+            font-size: 20px; 
+        }
+        .main-index-i{
+            padding: 0;       
+        }
+    }
+    .index-section{
+        background-size: cover;
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        iframe{
+            height: 300px;
+        }
+        ul{ 
+            font-size: 20px; 
+            height: 300px;               
+        }
+    }
+    footer{
+        background-size:cover;   
+        width: auto;
+        p{
+            font-size: 20px;
+            padding: 20px;
+        }
+    }
+    /*--nosotros RD--*/
+    .main-nosotros{
+        width: 100%;
+        height: auto;    
+        div{
+            p{
+                font-size: 20px;
+                width: 100%;
+                height: auto;
+                padding: 100px 0;
+            }
+            img{
+                width: 100%;
+                height: auto;
+            }
+        }
+    }
+    /*--galeria RD--*/
+    .main-galeria{        
+        width: 100%;
+        height: auto;
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: repeat(6,300px);
+        grid-template-areas: 
+        "receta1"
+        "img1"
+        "receta2"
+        "img2"
+        "receta3"
+        "img3";       
+        img{
+            width: 100%;
+            height: auto;
+        }
+        p{
+            width: 100%;
+            height: auto;
+        }
+    }
+    /*--planes RD--*/
+    .main-planes{       
+        width: 100%;
+        height: auto;
+        p{
+            background: none;        
+            font-size: 15px;
+        }
+        h3{
+            background: none;        
+            font-size: 15px;
+        }
+    }
+    /*--contacto RD--*/
+    .main-contacto{        
+        width: 100%;
+        height: auto;    
+        form{
+            width: 100%;
+            height: auto;
+            padding: 40px 10px;
+            label{
+                display: block;
+                padding: 10px 0;
+            }
+            input{
+                width: 100%;
+                height: 30px;
+                margin: 10px 0;
+            }
+            textarea{
+                width: 100%;
+                height: 300px;
+                margin: 10px 0;        
+            }
+            .input-enviar{
+                width: 70px;
+                height: 30px;
+            }
+        }
+    }
+}    
