@@ -325,15 +325,15 @@ footer {
       height: 30px; }
 
 @media screen and (max-width: 500px) {
-  header div {
+  header .inicio-icon {
     flex-direction: column;
     align-items: center; }
-    header div a {
+    header .inicio-icon a {
       padding: 5px; }
-    header div ul {
+    header .inicio-icon ul {
       width: 200px;
       padding: 5px; }
-      header div ul li {
+      header .inicio-icon ul li {
         justify-items: center; }
   header .inicio_imagen {
     width: 100%;
@@ -352,7 +352,7 @@ footer {
     width: auto;
     height: auto;
     grid-template-columns: 100%;
-    grid-template-rows: 2fr 2fr 1fr 0.5fr;
+    grid-template-rows: 2fr 1fr 1fr 0.5fr;
     grid-template-areas: "ind-parr1" "video" "ind-parr2" "buscar"; }
     .main-index .main-index-p1 {
       font-size: 20px;
@@ -390,12 +390,12 @@ footer {
   .main-nosotros {
     width: 100%;
     height: auto; }
-    .main-nosotros div p {
+    .main-nosotros p {
       font-size: 20px;
       width: 100%;
       height: auto;
-      padding: 100px 0; }
-    .main-nosotros div img {
+      padding: 20px; }
+    .main-nosotros img {
       width: 100%;
       height: auto; }
   /*--galeria RD--*/
@@ -416,10 +416,22 @@ footer {
   .main-planes {
     width: 100%;
     height: auto; }
-    .main-planes p {
+    .main-planes .plan1 {
       background: none;
       font-size: 15px; }
-    .main-planes h3 {
+    .main-planes .precio1 {
+      background: none;
+      font-size: 15px; }
+    .main-planes .plan2 {
+      background: none;
+      font-size: 15px; }
+    .main-planes .precio2 {
+      background: none;
+      font-size: 15px; }
+    .main-planes .plan3 {
+      background: none;
+      font-size: 15px; }
+    .main-planes .precio3 {
       background: none;
       font-size: 15px; }
   /*--contacto RD--*/
