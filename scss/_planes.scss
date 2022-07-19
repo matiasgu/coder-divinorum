@@ -34,43 +34,26 @@
         margin: 10px;
         background-color: rgba(0, 0, 0, 0.541);
     }
-    .plan2{
+    .plan2{        
+        @extend .plan1;
         grid-area: plan2;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
     }
     .precio2{
+        @extend .precio1;
         grid-area: precio2;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 50px 0;
-        background-color: rgba(0, 0, 0, 0.541);
+        
     }
 
     .plan3{
+        @extend .plan1;
         grid-area: plan3;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
+        
     }
     
     .precio3{
+        @extend .precio1;
         grid-area: precio3;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
+        
     }
 }
 

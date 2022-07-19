@@ -6,7 +6,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
-  width: 100% 100%;
+  width: 100%;
   height: auto; }
   header div {
     padding: 10px;
@@ -19,7 +19,7 @@ header {
       font-weight: bold;
       font-size: 20px;
       font-family: cursive;
-      color: #f1f1f7;
+      color: aliceblue;
       text-decoration: none;
       transition: 0.5s; }
       header div a:hover {
@@ -191,11 +191,11 @@ footer {
   justify-items: center;
   align-items: center;
   justify-content: center; }
-  .main-galeria .main-gal-i1 {
+  .main-galeria .main-gal-i1, .main-galeria .main-gal-i2, .main-galeria .main-gal-i3 {
     width: 300px;
     height: 300px;
     grid-area: img1; }
-  .main-galeria .main-gal-p1 {
+  .main-galeria .main-gal-p1, .main-galeria .main-gal-p2, .main-galeria .main-gal-p3 {
     font-size: 30px;
     color: aliceblue;
     text-align: center;
@@ -206,32 +206,12 @@ footer {
     background-color: rgba(18, 18, 19, 0.466);
     grid-area: receta1; }
   .main-galeria .main-gal-i2 {
-    width: 300px;
-    height: 300px;
     grid-area: img2; }
   .main-galeria .main-gal-p2 {
-    font-size: 30px;
-    color: aliceblue;
-    text-align: center;
-    border: groove rgba(240, 234, 234, 0.671);
-    width: 300px;
-    height: 300px;
-    padding: 60px;
-    background-color: rgba(18, 18, 19, 0.466);
     grid-area: receta2; }
   .main-galeria .main-gal-i3 {
-    width: 300px;
-    height: 300px;
     grid-area: img3; }
   .main-galeria .main-gal-p3 {
-    font-size: 30px;
-    color: aliceblue;
-    text-align: center;
-    border: groove rgba(240, 234, 234, 0.671);
-    width: 300px;
-    height: 300px;
-    padding: 60px;
-    background-color: rgba(18, 18, 19, 0.466);
     grid-area: receta3; }
 
 .main-planes {
@@ -247,7 +227,7 @@ footer {
   grid-template-areas: "plan1 precio1" "plan2 precio2" "plan3 precio3";
   justify-items: center;
   align-items: center; }
-  .main-planes .plan1 {
+  .main-planes .plan1, .main-planes .plan2, .main-planes .plan3 {
     grid-area: plan1;
     font-size: 40px;
     font-family: cursive;
@@ -255,7 +235,7 @@ footer {
     padding: 30px;
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.541); }
-  .main-planes .precio1 {
+  .main-planes .precio1, .main-planes .precio2, .main-planes .precio3 {
     grid-area: precio1;
     font-size: 40px;
     font-family: cursive;
@@ -264,37 +244,13 @@ footer {
     margin: 10px;
     background-color: rgba(0, 0, 0, 0.541); }
   .main-planes .plan2 {
-    grid-area: plan2;
-    font-size: 40px;
-    font-family: cursive;
-    color: aliceblue;
-    padding: 30px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.541); }
+    grid-area: plan2; }
   .main-planes .precio2 {
-    grid-area: precio2;
-    font-size: 40px;
-    font-family: cursive;
-    color: aliceblue;
-    padding: 30px;
-    margin: 50px 0;
-    background-color: rgba(0, 0, 0, 0.541); }
+    grid-area: precio2; }
   .main-planes .plan3 {
-    grid-area: plan3;
-    font-size: 40px;
-    font-family: cursive;
-    color: aliceblue;
-    padding: 30px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.541); }
+    grid-area: plan3; }
   .main-planes .precio3 {
-    grid-area: precio3;
-    font-size: 40px;
-    font-family: cursive;
-    color: aliceblue;
-    padding: 30px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.541); }
+    grid-area: precio3; }
 
 .main-contacto {
   background-image: url(../multimedia/fondo2.jpg);
@@ -416,10 +372,10 @@ footer {
   .main-planes {
     width: 100%;
     height: auto; }
-    .main-planes .plan1 {
+    .main-planes .plan1, .main-planes .plan2, .main-planes .plan3 {
       background: none;
       font-size: 15px; }
-    .main-planes .precio1 {
+    .main-planes .precio1, .main-planes .precio2, .main-planes .precio3 {
       background: none;
       font-size: 15px; }
     .main-planes .plan2 {

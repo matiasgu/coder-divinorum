@@ -35,38 +35,22 @@
     }
 
     .main-gal-i2{    
-        width: 300px;
-        height: 300px;    
+        @extend .main-gal-i1;    
         grid-area: img2;
     }
 
     .main-gal-p2{    
-        font-size: 30px;
-        color: aliceblue;
-        text-align: center;
-        border: groove rgba(240, 234, 234, 0.671);
-        width: 300px;
-        height: 300px;
-        padding: 60px;
-        background-color: rgba(18, 18, 19, 0.466);
+        @extend .main-gal-p1;
         grid-area: receta2;
     }
 
     .main-gal-i3{    
-        width: 300px;
-        height: 300px;    
+        @extend .main-gal-i1;   
         grid-area: img3;
     }
 
     .main-gal-p3{    
-        font-size: 30px;
-        color: aliceblue;
-        text-align: center;
-        border: groove rgba(240, 234, 234, 0.671);
-        width: 300px;
-        height: 300px;
-        padding: 60px;
-        background-color: rgba(18, 18, 19, 0.466);
+        @extend .main-gal-p1;
         grid-area: receta3;
     }
 }
