@@ -1,0 +1,6 @@
+agrague los keywords a todas las paginas, 
+optimeze todas las imagenes y los logos,
+agregue todos los alt de las respectivas imagenes
+modifique todo los titulos.
+aplique map y mixin en los estilos main index
+aplique extend en los estilos galeria y planes
