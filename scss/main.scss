@@ -21,7 +21,7 @@ header{
     height: auto;
     div{
         padding: 10px;
-        @include flex-base(flex ,row ,nowrap)
+        @include flex-base(flex ,row ,nowrap);
         
         justify-content: space-around;  
         align-items: baseline;
@@ -40,7 +40,7 @@ header{
         ul{
             width: 20%;
             list-style-type: none; 
-            @include flex-base(flex, row, nowrap)  
+            @include flex-base(flex, row, nowrap);  
             
             justify-content: space-between;
             .fa-brands{
@@ -161,7 +161,7 @@ footer{
     background-size: 100%;
     width: 100%;
     height: auto;
-    @include flex-base(flex, row, nowrap)
+    @include flex-base(flex, row, nowrap);
     
     justify-content: space-around;  
     align-items: baseline;
@@ -173,7 +173,7 @@ footer{
     ul{
         width: 20%;
         list-style-type: none;    
-        @include flex-base(flex, row, nowrap)
+        @include flex-base(flex, row, nowrap);
         justify-content: space-between;
         .fa-brands{
             font-size: 30px;
