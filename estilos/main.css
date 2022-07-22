@@ -219,7 +219,9 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  padding: 15px; }
+  padding: 15px;
+  width: 100%;
+  margin: 0%; }
 
 .main-contacto {
   background-image: url(../multimedia/fondo2.jpg);
