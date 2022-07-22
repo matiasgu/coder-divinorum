@@ -219,38 +219,7 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: 100% 100%;
-  width: 100%;
-  height: auto;
-  display: grid;
-  grid-template-columns: 70% 30%;
-  grid-template-rows: repeat(3, 2fr);
-  grid-template-areas: "plan1 precio1" "plan2 precio2" "plan3 precio3";
-  justify-items: center;
-  align-items: center; }
-  .main-planes .plan1, .main-planes .plan2, .main-planes .plan3 {
-    grid-area: plan1;
-    font-size: 40px;
-    font-family: cursive;
-    color: aliceblue;
-    padding: 30px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.541); }
-  .main-planes .precio1, .main-planes .precio2, .main-planes .precio3 {
-    grid-area: precio1;
-    font-size: 40px;
-    font-family: cursive;
-    color: aliceblue;
-    padding: 30px;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.541); }
-  .main-planes .plan2 {
-    grid-area: plan2; }
-  .main-planes .precio2 {
-    grid-area: precio2; }
-  .main-planes .plan3 {
-    grid-area: plan3; }
-  .main-planes .precio3 {
-    grid-area: precio3; }
+  padding: 15px; }
 
 .main-contacto {
   background-image: url(../multimedia/fondo2.jpg);
@@ -368,28 +337,6 @@ footer {
     .main-galeria p {
       width: 100%;
       height: auto; }
-  /*--planes RD--*/
-  .main-planes {
-    width: 100%;
-    height: auto; }
-    .main-planes .plan1, .main-planes .plan2, .main-planes .plan3 {
-      background: none;
-      font-size: 15px; }
-    .main-planes .precio1, .main-planes .precio2, .main-planes .precio3 {
-      background: none;
-      font-size: 15px; }
-    .main-planes .plan2 {
-      background: none;
-      font-size: 15px; }
-    .main-planes .precio2 {
-      background: none;
-      font-size: 15px; }
-    .main-planes .plan3 {
-      background: none;
-      font-size: 15px; }
-    .main-planes .precio3 {
-      background: none;
-      font-size: 15px; }
   /*--contacto RD--*/
   .main-contacto {
     width: 100%;

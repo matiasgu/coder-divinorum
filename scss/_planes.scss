@@ -3,57 +3,7 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: 100% 100%;
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 70% 30%;
-    grid-template-rows: repeat(3,2fr);
-    grid-template-areas: 
-    "plan1 precio1"
-    "plan2 precio2"
-    "plan3 precio3";
-    justify-items: center;
-    align-items: center;
+    padding: 15px;
     
-    .plan1{
-        grid-area: plan1;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
-    }
-
-    .precio1{
-        grid-area: precio1;
-        font-size: 40px;
-        font-family: cursive;
-        color: aliceblue;
-        padding: 30px;
-        margin: 10px;
-        background-color: rgba(0, 0, 0, 0.541);
-    }
-    .plan2{        
-        @extend .plan1;
-        grid-area: plan2;
-    }
-    .precio2{
-        @extend .precio1;
-        grid-area: precio2;
-        
-    }
-
-    .plan3{
-        @extend .plan1;
-        grid-area: plan3;
-        
-    }
-    
-    .precio3{
-        @extend .precio1;
-        grid-area: precio3;
-        
-    }
 }
 
