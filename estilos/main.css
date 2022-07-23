@@ -63,7 +63,7 @@ header {
   width: 100%;
   display: grid;
   grid-template-columns: 60% 40%;
-  grid-template-rows: 3fr 3fr 1fr;
+  grid-template-rows: 2fr 2fr 1fr;
   grid-template-areas: "ind-parr1  ." "video ." "ind-parr2 buscar";
   justify-items: center;
   align-items: center;
@@ -71,15 +71,14 @@ header {
   .main-index .main-index-p1 {
     font-size: 30px;
     color: aliceblue;
-    text-align: center;
+    text-align: justify;
+    font-style: italic;
     border: groove rgba(240, 234, 234, 0.671);
     background-color: rgba(18, 18, 19, 0.466);
     width: 100%;
     height: auto;
     grid-area: ind-parr1;
-    display: flex;
-    align-items: center;
-    padding: 30px; }
+    padding: 20px; }
   .main-index .main-index-video {
     width: 100%;
     height: 500px;
@@ -87,7 +86,9 @@ header {
   .main-index .main-index-p2 {
     font-size: 40px;
     text-align: center;
-    color: black;
+    font-weight: bold;
+    font-style: italic;
+    color: rgba(197, 20, 20, 0.61);
     background-color: rgba(240, 248, 255, 0.521);
     grid-area: ind-parr2; }
   .main-index .main-index-i {
@@ -184,35 +185,16 @@ footer {
   background-size: 100% 100%;
   width: 100%;
   height: auto;
-  display: grid;
-  grid-template-columns: 800px 800px;
-  grid-template-rows: repeat(3, 500px);
-  grid-template-areas: "receta1 img1" "img2 receta2" "receta3 img3";
-  justify-items: center;
-  align-items: center;
-  justify-content: center; }
-  .main-galeria .main-gal-i1, .main-galeria .main-gal-i2, .main-galeria .main-gal-i3 {
-    width: 300px;
-    height: 300px;
-    grid-area: img1; }
-  .main-galeria .main-gal-p1, .main-galeria .main-gal-p2, .main-galeria .main-gal-p3 {
-    font-size: 30px;
-    color: aliceblue;
-    text-align: center;
-    border: groove rgba(240, 234, 234, 0.671);
-    width: 300px;
-    height: 300px;
-    padding: 60px;
-    background-color: rgba(18, 18, 19, 0.466);
-    grid-area: receta1; }
-  .main-galeria .main-gal-i2 {
-    grid-area: img2; }
-  .main-galeria .main-gal-p2 {
-    grid-area: receta2; }
-  .main-galeria .main-gal-i3 {
-    grid-area: img3; }
-  .main-galeria .main-gal-p3 {
-    grid-area: receta3; }
+  margin: 0%;
+  padding: 20px; }
+  .main-galeria .col {
+    padding: 40px; }
+    .main-galeria .col .card {
+      width: 100%;
+      height: auto; }
+      .main-galeria .col .card .card-img-top {
+        width: 100%;
+        height: 600px; }
 
 .main-planes {
   background-image: url(../multimedia/fondo2.jpg);
@@ -326,19 +308,14 @@ footer {
       width: 100%;
       height: auto; }
   /*--galeria RD--*/
-  .main-galeria {
-    width: 100%;
-    height: auto;
-    display: grid;
-    grid-template-columns: 100%;
-    grid-template-rows: repeat(6, 300px);
-    grid-template-areas: "receta1" "img1" "receta2" "img2" "receta3" "img3"; }
-    .main-galeria img {
+  .main-galeria .col {
+    padding: 10px; }
+    .main-galeria .col .card {
       width: 100%;
       height: auto; }
-    .main-galeria p {
-      width: 100%;
-      height: auto; }
+      .main-galeria .col .card .card-img-top {
+        width: 100%;
+        height: auto; }
   /*--contacto RD--*/
   .main-contacto {
     width: 100%;

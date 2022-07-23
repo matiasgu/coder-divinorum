@@ -85,7 +85,7 @@ header{
     width: 100%;    
     display: grid;
     grid-template-columns: 60% 40%;
-    grid-template-rows: 3fr 3fr 1fr;
+    grid-template-rows: 2fr 2fr 1fr;
     grid-template-areas: 
     "ind-parr1  ."
     "video ."
@@ -96,15 +96,15 @@ header{
     .main-index-p1{
         font-size: 30px;
         color: aliceblue;
-        text-align: center;
+        text-align: justify;
+        font-style: italic;
         border: groove rgba(240, 234, 234, 0.671);        
         background-color: rgba(18, 18, 19, 0.466);
         width: 100%;
         height: auto;
         grid-area: ind-parr1;
-        display: flex;
-        align-items: center;
-        padding: 30px;  
+        
+        padding: 20px;  
     }
     .main-index-video{
         width: 100%;
@@ -114,7 +114,9 @@ header{
     .main-index-p2{
         font-size: map-get($estilos, letra2);
         text-align: center;
-        color: black;        
+        font-weight:bold;
+        font-style: italic;
+        color: rgba(197, 20, 20, 0.61);        
         background-color: rgba(240, 248, 255, 0.521);        
         grid-area: ind-parr2;
     }

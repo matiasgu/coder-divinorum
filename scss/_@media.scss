@@ -108,25 +108,16 @@
     }
     /*--galeria RD--*/
     .main-galeria{        
-        width: 100%;
-        height: auto;
-        display: grid;
-        grid-template-columns: 100%;
-        grid-template-rows: repeat(6,300px);
-        grid-template-areas: 
-        "receta1"
-        "img1"
-        "receta2"
-        "img2"
-        "receta3"
-        "img3";       
-        img{
-            width: 100%;
-            height: auto;
-        }
-        p{
-            width: 100%;
-            height: auto;
+        .col{
+            padding: 10px;
+            .card{
+                width: 100%;
+                height: auto;
+                .card-img-top{
+                    width: 100%;
+                    height: auto;
+                }
+            }        
         }
     }
     
