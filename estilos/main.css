@@ -266,10 +266,10 @@ footer {
         font-size: 20px; }
   .main-index {
     background-image: url(../multimedia/fondo2.jpg);
-    width: auto;
+    width: 100%;
     height: auto;
     grid-template-columns: 100%;
-    grid-template-rows: 2fr 1fr 1fr 0.5fr;
+    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
     grid-template-areas: "ind-parr1" "video" "ind-parr2" "buscar"; }
     .main-index .main-index-p1 {
       font-size: 20px;
@@ -318,12 +318,9 @@ footer {
   /*--galeria RD--*/
   .main-galeria .col {
     padding: 10px; }
-    .main-galeria .col .card {
+    .main-galeria .col .card .card-img-top {
       width: 100%;
       height: auto; }
-      .main-galeria .col .card .card-img-top {
-        width: 100%;
-        height: auto; }
   /*--contacto RD--*/
   .main-contacto {
     width: 100%;

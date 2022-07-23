@@ -34,10 +34,10 @@
     }
     .main-index{
         background-image: url(../multimedia/fondo2.jpg);        
-        width: auto;
+        width: 100%;
         height: auto;        
         grid-template-columns: 100%;
-        grid-template-rows: 2fr 1fr 1fr 0.5fr;
+        grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
         grid-template-areas: 
         "ind-parr1"
         "video"
@@ -111,8 +111,7 @@
         .col{
             padding: 10px;
             .card{
-                width: 100%;
-                height: auto;
+                
                 .card-img-top{
                     width: 100%;
                     height: auto;
