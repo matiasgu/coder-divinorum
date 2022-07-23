@@ -7,6 +7,14 @@
     height: auto;
     margin: 0%;
     padding: 20px;
+    h1{
+        text-align: center;
+        color: aliceblue;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        font-style: italic;
+    
+    }
     .col{
         padding: 40px;
         .card{
@@ -14,7 +22,10 @@
             height: auto;
             .card-img-top{
                 width: 100%;
-                height: 600px;
+                height: 400px;
+            }
+            .card-text{
+                text-align: justify;
             }
         }        
     }
