@@ -37,12 +37,11 @@
         width: 100%;
         height: auto;        
         grid-template-columns: 100%;
-        grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
+        grid-template-rows: 2fr 1fr 0.5fr;
         grid-template-areas: 
         "ind-parr1"
         "video"
-        "ind-parr2"
-        "buscar";  
+        "ind-parr2";  
         .main-index-p1{
             font-size: 20px;
             padding: 20px;       
@@ -53,11 +52,10 @@
             height: auto;
         }
         .main-index-p2{
-            font-size: 20px; 
+            font-size: 20px;
+            padding: 20px; 
         }
-        .main-index-i{
-            padding: 0;       
-        }
+        
     }
     .index-section{
         background-size: cover;
@@ -86,20 +84,23 @@
         ul{
             width: 100%;
             justify-content: space-evenly;
+            padding: 0%;
+            .fa-brands{
+                font-size: 30px;
+            }
         }
         
     }
     /*--nosotros RD--*/
     .main-nosotros{
         width: 100%;
-        height: auto;    
-        
-        p{
-            font-size: 15px;
-            width: 100%;
-            height: auto;
-            padding:10px;
-        }
+        height: auto;
+        .div-nosotros{
+            padding: 10px;
+            p{
+                font-size: 15px;
+            }
+        } 
         .carousel{
             padding: 0;
         }

@@ -11,22 +11,26 @@
     padding: 20px;
     h3{
         font-family: Arial, Helvetica, sans-serif;
-        color: aliceblue;
+        color: rgba(224, 44, 44, 0.795);
         font-style: oblique;
         padding: 20px;
         text-align: center;
+        font-weight: bold;
+    
     }
-    p{
+    .div-nosotros{
+        border: groove rgba(240, 234, 234, 0.671);
+        padding: 20px;
+        background-color: rgba(18, 18, 19, 0.466);
+        p{
         font-size: 20px;
         font-family: Arial, Helvetica, sans-serif;
         font-style: italic;
-        color: aliceblue;
-        text-align:justify;
-        border: groove rgba(240, 234, 234, 0.671);
-        padding: 20px;
-        background-color: rgba(18, 18, 19, 0.466); 
-        
-    }
+        color: rgb(201, 155, 69);
+        text-shadow: 3px 2px rgb(134, 10, 10);
+        text-align:justify;         
+        }        
+    }        
     .carousel{
         padding: 100px;
     }

@@ -89,13 +89,13 @@ header{
     grid-template-areas: 
     "ind-parr1  ."
     "video ."
-    "ind-parr2 buscar";
+    "ind-parr2 .";
     justify-items: center;
     align-items: center;
     padding: 20px;
     .main-index-p1{
         font-size: 30px;
-        color: aliceblue;
+        color: rgba(218, 88, 88, 0.979);
         text-align: justify;
         font-style: italic;
         border: groove rgba(240, 234, 234, 0.671);        
@@ -103,7 +103,7 @@ header{
         width: 100%;
         height: auto;
         grid-area: ind-parr1;
-        
+        text-shadow: 5px 2px black;
         padding: 20px;  
     }
     .main-index-video{
@@ -143,8 +143,7 @@ header{
         height: 500px;       
     }
     ul{    
-        color: aliceblue;
-        border: groove aliceblue;    
+        color: aliceblue;        
         text-align: center;
         list-style-type: none;   
         font-size: map-get($estilos, letra2); 
@@ -178,12 +177,9 @@ footer{
         @include flex-base(flex, row, nowrap);
         justify-content: space-between;
         .fa-brands{
-            font-size: 30px;
+            font-size: 40px;
             color: aliceblue;
-            transition: 0.5s;
-            &:hover{
-                font-size: 40px;
-            }
+            
         }
     }
 }

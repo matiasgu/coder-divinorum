@@ -64,13 +64,13 @@ header {
   display: grid;
   grid-template-columns: 60% 40%;
   grid-template-rows: 2fr 2fr 1fr;
-  grid-template-areas: "ind-parr1  ." "video ." "ind-parr2 buscar";
+  grid-template-areas: "ind-parr1  ." "video ." "ind-parr2 .";
   justify-items: center;
   align-items: center;
   padding: 20px; }
   .main-index .main-index-p1 {
     font-size: 30px;
-    color: aliceblue;
+    color: rgba(218, 88, 88, 0.979);
     text-align: justify;
     font-style: italic;
     border: groove rgba(240, 234, 234, 0.671);
@@ -78,6 +78,7 @@ header {
     width: 100%;
     height: auto;
     grid-area: ind-parr1;
+    text-shadow: 5px 2px black;
     padding: 20px; }
   .main-index .main-index-video {
     width: 100%;
@@ -113,7 +114,6 @@ header {
     height: 500px; }
   .index-section ul {
     color: aliceblue;
-    border: groove aliceblue;
     text-align: center;
     list-style-type: none;
     font-size: 40px;
@@ -147,11 +147,8 @@ footer {
     flex-wrap: nowrap;
     justify-content: space-between; }
     footer ul .fa-brands {
-      font-size: 30px;
-      color: aliceblue;
-      transition: 0.5s; }
-      footer ul .fa-brands:hover {
-        font-size: 40px; }
+      font-size: 40px;
+      color: aliceblue; }
 
 .main-nosotros {
   background-image: url(../multimedia/fondo2.jpg);
@@ -164,19 +161,22 @@ footer {
   padding: 20px; }
   .main-nosotros h3 {
     font-family: Arial, Helvetica, sans-serif;
-    color: aliceblue;
+    color: rgba(224, 44, 44, 0.795);
     font-style: oblique;
     padding: 20px;
-    text-align: center; }
-  .main-nosotros p {
-    font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-style: italic;
-    color: aliceblue;
-    text-align: justify;
+    text-align: center;
+    font-weight: bold; }
+  .main-nosotros .div-nosotros {
     border: groove rgba(240, 234, 234, 0.671);
     padding: 20px;
     background-color: rgba(18, 18, 19, 0.466); }
+    .main-nosotros .div-nosotros p {
+      font-size: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+      font-style: italic;
+      color: #c99b45;
+      text-shadow: 3px 2px #860a0a;
+      text-align: justify; }
   .main-nosotros .carousel {
     padding: 100px; }
 
@@ -191,10 +191,13 @@ footer {
   padding: 20px; }
   .main-galeria h1 {
     text-align: center;
-    color: aliceblue;
+    color: #f04141;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-style: italic; }
+  .main-galeria .card-title {
+    color: rgba(247, 209, 43, 0.753);
+    text-shadow: 3px 3px rgba(128, 10, 10, 0.541); }
   .main-galeria .col {
     padding: 40px; }
     .main-galeria .col .card {
@@ -271,8 +274,8 @@ footer {
     width: 100%;
     height: auto;
     grid-template-columns: 100%;
-    grid-template-rows: 2fr 0.5fr 0.5fr 0.5fr;
-    grid-template-areas: "ind-parr1" "video" "ind-parr2" "buscar"; }
+    grid-template-rows: 2fr 1fr 0.5fr;
+    grid-template-areas: "ind-parr1" "video" "ind-parr2"; }
     .main-index .main-index-p1 {
       font-size: 20px;
       padding: 20px; }
@@ -280,9 +283,8 @@ footer {
       width: 100%;
       height: auto; }
     .main-index .main-index-p2 {
-      font-size: 20px; }
-    .main-index .main-index-i {
-      padding: 0; }
+      font-size: 20px;
+      padding: 20px; }
   .index-section {
     background-size: cover;
     width: 100%;
@@ -304,16 +306,18 @@ footer {
       text-align: center; }
     footer ul {
       width: 100%;
-      justify-content: space-evenly; }
+      justify-content: space-evenly;
+      padding: 0%; }
+      footer ul .fa-brands {
+        font-size: 30px; }
   /*--nosotros RD--*/
   .main-nosotros {
     width: 100%;
     height: auto; }
-    .main-nosotros p {
-      font-size: 15px;
-      width: 100%;
-      height: auto;
+    .main-nosotros .div-nosotros {
       padding: 10px; }
+      .main-nosotros .div-nosotros p {
+        font-size: 15px; }
     .main-nosotros .carousel {
       padding: 0; }
   /*--galeria RD--*/
